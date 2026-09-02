@@ -1,5 +1,4 @@
 import React from 'react';
-import './globals.css';
 
 export const metadata = {
   title: 'Refining Hub — قسم تكرير النفط والغاز',
@@ -13,6 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir="rtl">
+      <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
       <body className="bg-[#0d0f12] text-white antialiased">
         {children}
       </body>
